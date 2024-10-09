@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>minigierka</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="minigame">
+        <div class="text-main" id="text-main">Wybierz poprawną odpowiedź</div>
+        <div class="question" id="question">Przykładowe Pytanie</div>
+        <div class="questions">
+          <div class="buttons" id="answer1">Tak</div>
+          <div class="buttons" id="answer2">Nie</div>
+        </div>
+        <div class="time-remaining">
+          <span id="time-bar-question"> 10 sek</span>
+        </div>
+        <h1 class="end-game" id="end-game"></h1>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
