@@ -1,2 +1,2 @@
 # EXPORT 
-exports['minigame']:StartGame()
+exports['minigame-fivem']:StartGame()
