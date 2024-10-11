@@ -46,7 +46,7 @@ RegisterNUICallback('nieudane', function(data, cb)
 end)
 
 RegisterCommand('testminigame', function()
-    local win = exports['minigame']:StartGame()
+    local win = exports['minigame-fivem']:StartGame()
     if win == true then
         ESX.ShowNotification('Udano')
     else
